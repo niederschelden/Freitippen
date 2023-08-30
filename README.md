@@ -6,11 +6,11 @@ This repository contains a circuit for enabling the 12V control of electrically 
 
 ## Background
 
-Originally, the recommendation by BfArM was developed by the Working Committee for Medical Devices (Arbeitsausschuss für Medizinprodukte, AGMP), with the supervisory authority of Hamburg taking the lead. BfArM participated in the session as a guest, providing information on the topic based on known incidents. Other relevant entities, such as the BGW, were also involved in the development. The supervision of medical devices falls within the jurisdiction of the federal states according to the German Basic Law. Despite my inquiry to BfArM, I was unable to identify the responsible parties, leading me to decide on the development of a counter-concept instead.
+Originally, the recommendation by BfArM was developed by the Working Committee for Medical Devices (Arbeitsausschuss für Medizinprodukte, AGMP), with the supervisory authority of Hamburg taking the lead. BfArM participated in the session as a guest, providing information on the topic based on known incidents. Other relevant entities, such as the BGW, were also involved in the development. The supervision of medical devices falls within the jurisdiction of the federal states according to the German Law. Despite my inquiry to BfArM, I was unable to identify the responsible parties, leading me to decide on the development of a counter-concept instead.
 
 ## Consequence
 
-Due to the unilateral decision, which, to my knowledge, did not involve professional associations or the industry, the replacement of numerous treatment beds or their motors became necessary. Even a well-known German motor manufacturer was unwilling to provide me with a datasheet for their motors. Thus, there was resistance from all sides. Ultimately, the consequence is a significant carbon footprint, a financial burden on practices, and a complex legal situation. Unlike in 2004, no technical solutions for retrofitting were introduced to the market (similar to how lock boxes were used back then).
+Due to the unilateral decision, which, to my knowledge, did not involve professional associations or the industry, the replacement of numerous treatment beds or their motors became necessary. Even a well-known German motor manufacturer was unwilling to provide me with a datasheet for their motors - not even the pinout. Thus, there was resistance from all sides. Ultimately, the consequence is a significant carbon footprint, a financial burden on practices, and a complex legal situation. Unlike in 2004, no technical solutions for retrofitting were introduced to the market (similar to how lock boxes were used back then).
 
 ## Circuit
 
