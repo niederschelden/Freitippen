@@ -1,4 +1,4 @@
-# README - Freitippen für Motoren mit 12V Steuerung in Behandlungsliegen
+# README - Proof of Concept: Freitippen für Motoren mit 12V Steuerung
 
 ## Overview
 
