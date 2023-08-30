@@ -14,7 +14,7 @@ Due to the unilateral decision, which, to my knowledge, did not involve professi
 
 ## Circuit
 
-The goal is to demonstrate that the subsequent implementation of a safety-relevant locking function against unintended activation would have been possible, similar to what is now used in newly delivered motors. The developed circuit allows for the locking of the 12V control of electrically operated bed motors. The circuit prevents the activation process of the internal relay until a predefined number of button presses have occurred. The circuit detects the activation request using a voltage divider and a debouncing capacitor without activating the motor's relay. After multiple button presses, the relay ground is released through a transistor.
+The objective is to showcase the feasibility of implementing a safety-critical locking mechanism to prevent unintended activation, akin to the operation of loading dock ramps with foot control, a concept familiar to me since the 1980s, as well as contemporary practices seen in newly manufactured motors. The devised circuit facilitates the securement of the 12V control for electrically powered bed motors. By design, the circuit halts the activation sequence of the internal relay until a predefined number of button presses have transpired. The activation signal is ascertained using a voltage divider and a debouncing capacitor, all the while refraining from engaging the motor's relay. Upon successive button presses, a transistor liberates the relay's grounding.
 
 ## Note
 
