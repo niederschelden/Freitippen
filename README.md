@@ -1,17 +1,21 @@
-# README - Freitippen für Motoren  mit 12V Steuerung in Behandlungsliegen
+# README - Freitippen für Motoren mit 12V Steuerung in Behandlungsliegen
 
-## Übersicht
+## Overview
 
-Dieses Repository enthält eine Schaltung zur Freischaltung der 12V-Steuerung von elektrisch angesteuerten Behandlungsliegen. Die Schaltung wurde entwickelt, um die Funktion zu blockieren, bis eine festgelegte Anzahl von Tastendrücken erfolgt ist. Diese Entwicklung wurde als Reaktion auf die Empfehlung des Bundesministeriums für Arzneimittel und Medizinprodukte (BfArM) Fall-Nr. 0785/03 initiiert. Diese Empfehlung wurde von den Bundesländern als verbindlich angesehen und von der BGW in einem eigenen Dokument erneut aufgegriffen.
+This repository contains a circuit for enabling the 12V control of electrically operated treatment beds. The circuit has been developed to prevent the function from being activated until a predetermined number of button presses have occurred. This development was initiated in response to the recommendation by the Federal Institute for Drugs and Medical Devices (BfArM) under case number 0785/03. This recommendation was considered binding by the federal states (Bundesländer) and was subsequently referenced in a separate document by BGW (Institution for Statutory Accident Insurance and Prevention in the Health and Welfare Services).
 
-## Hintergrund
+## Background
 
-Ursprünglich wurde die Empfehlung des BfArM vom Arbeitsausschuss für Medizinprodukte (AGMP) erarbeitet, wobei die Landesbehörde Hamburg den Vorsitz und die Federführung innehatte. Das BfArM nahm als Gast an der Sitzung teil und trug Informationen zu dem Thema aufgrund bekannter Vorfälle bei. Weitere relevante Stellen, wie die Berufsgenossenschaft BGW, waren ebenfalls an der Erarbeitung beteiligt. Die Überwachung von Medizinprodukten fällt gemäß dem deutschen Grundgesetz in die Zuständigkeit der Bundesländer. Da es mir trotz einer Anfrage beim BfArM nicht gelungen ist, die verantwortlichen Parteien zu identifizieren, entschied ich mich stattdessen für die Entwicklung eines Gegenkonzepts.
+Originally, the recommendation by BfArM was developed by the Working Committee for Medical Devices (Arbeitsausschuss für Medizinprodukte, AGMP), with the supervisory authority of Hamburg taking the lead. BfArM participated in the session as a guest, providing information on the topic based on known incidents. Other relevant entities, such as the BGW, were also involved in the development. The supervision of medical devices falls within the jurisdiction of the federal states according to the German Basic Law. Despite my inquiry to BfArM, I was unable to identify the responsible parties, leading me to decide on the development of a counter-concept instead.
 
-## Schaltung
+## Consequence
 
-Das Ziel ist der Nachweis, dass die nachträgliche Implementierung einer sicherheitsrelevanten Sperrfunktion gegen ungewolltes Einschalten möglich gewesen wäre, ähnlich wie sie jetzt bei neu ausgelieferten Motoren verwendet wird. Die entwickelte Schaltung ermöglicht die Sperrung der 12V-Steuerung von elektrisch angesteuerten Liegenmotoren. Die Schaltung blockiert den Einschaltvorgang des internen Relais, bis eine vordefinierte Anzahl von Tastendrücken erfolgt ist. Die Schaltung erfasst den Einschaltwunsch mithilfe eines Spannungsteilers und eines Entprellungskondensators, ohne das Relais des Motors zu aktivieren. Nach mehrfachen Tastendrücken wird die Relaismasse über einen Transistor freigeschaltet.
+Due to the unilateral decision, which, to my knowledge, did not involve professional associations or the industry, the replacement of numerous treatment beds or their motors became necessary. Even a well-known German motor manufacturer was unwilling to provide me with a datasheet for their motors. Thus, there was resistance from all sides. Ultimately, the consequence is a significant carbon footprint, a financial burden on practices, and a complex legal situation. Unlike in 2004, no technical solutions for retrofitting were introduced to the market (similar to how lock boxes were used back then).
 
-## Hinweis
+## Circuit
 
-Dieses Repository dient lediglich der Darstellung der Schaltung und des Kontexts, in dem sie entwickelt wurde. Das Ergebnis ist kein Medizinprodukt und darf nicht zur Anwendung an Liegen im Einflussbereich der BGW und des BfArM verwendet werden.
+The goal is to demonstrate that the subsequent implementation of a safety-relevant locking function against unintended activation would have been possible, similar to what is now used in newly delivered motors. The developed circuit allows for the locking of the 12V control of electrically operated bed motors. The circuit prevents the activation process of the internal relay until a predefined number of button presses have occurred. The circuit detects the activation request using a voltage divider and a debouncing capacitor without activating the motor's relay. After multiple button presses, the relay ground is released through a transistor.
+
+## Note
+
+This repository solely serves to illustrate the circuit and the context in which it was developed. The result is not a medical device and must not be used for applications on beds within the jurisdiction of BGW and BfArM.
