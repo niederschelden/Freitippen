@@ -3,6 +3,7 @@
  * Da ich mit einem Einsatzszenario rechne das Ähnlich einem Medizinprodukt ist, ist Sicherheit sehr wichtig. 
  * Ein Ausfall der Hardware oder ein Softwarefehler darf nicht zu einem start des Motors führen. 
  * Daher wird der Motor nicht direkt angesteuert sondern nur feigegeben.
+ * Eine tatsächliche Verwendung in Medizinprodukten ist nicht erlaubt; ich stelle hier nur ein Konzept vor.
  * Änderung Version 2.0 -> 2.2 das idleen beim upcount wurde gefixt, zusätzliche Dokumentation in initWD
  */
 #define INT_PIN      2
